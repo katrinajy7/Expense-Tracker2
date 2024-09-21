@@ -10,7 +10,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      React homework template dissapointed with this course. Not good in students communication!
     </div>
   );
 };
