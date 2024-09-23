@@ -3,7 +3,7 @@ import { Controller } from "react-hook-form";
 
 //selectors
 import { useSelector } from "react-redux";
-import { SelectUserCurrency } from '../../redux/user/selectors';
+import { SelectUserCurrency } from '../../../redux/user/selectors';
 
 //styled
 import { StyledInputWrapper, StyledLabel, StyledCategoryInput, CurrencySelected } from "./SumInput.styled";
