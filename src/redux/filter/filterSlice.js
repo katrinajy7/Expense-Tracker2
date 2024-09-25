@@ -24,7 +24,7 @@
 // export const { setFilter, setStartDate } = filterSlice.actions;
 // export const filterReducer = filterSlice.reducer;
 
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice} from '@reduxjs/toolkit';
 const year = new Date().getFullYear();
 const month = new Date().getMonth() + 1;
 const day = new Date().getDate();

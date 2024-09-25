@@ -5,7 +5,7 @@ import { TotalIncome } from 'shared/Total';
 import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import LoginForm from 'components/LogInForm/LoginForm';
 
-import { AdaptDiv } from 'pages/Home/Home.styled';
+import { AdaptDiv, H2 } from 'pages/Home/Home.styled';
 import {
   PlugDivs,
   TableDivs,
@@ -44,7 +44,7 @@ export default function Login() {
                 <ImgAuth src={homeimg} alt="Main " />
               </PlugDivs>
               <WrapForm>
-                <h2>Sign In</h2>
+                <H2>Sign In</H2>
                 <Texts>
                   Step into a world of hassle-free expense management! Your
                   journey towards financial mastery begins here.

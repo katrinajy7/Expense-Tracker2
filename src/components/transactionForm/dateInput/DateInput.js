@@ -1,6 +1,8 @@
+//base
 import React, {useState, useEffect} from 'react';
 import { Controller } from 'react-hook-form';
 
+//styled
 import { StyledWrapper, StyledInputWrapper, StyledLabel, StyledDatePicker, StyledTimePicker, StyledSvg } from './DateInput.styled';
 
 import svg from "../../../images/Sprite.svg";

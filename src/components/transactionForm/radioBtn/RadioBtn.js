@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Controller } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 //component
 import PreSelectType from 'components/preSelectType/PreSelectType';

@@ -12,7 +12,7 @@ import {
     StyledInputWrapper,
     StyledLabel,
     StyledCategoryInput,
-  } from './CategoryInput.styled';
+  } from "./CategoryInput.styled";
 
   
 const CategoryInput = ({ control, setValue, setCategoryId, type }) => {
