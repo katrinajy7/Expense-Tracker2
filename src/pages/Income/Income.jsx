@@ -1,16 +1,16 @@
-import React, { useEffect, usestate } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import { Navigate } from 'react-router-dom';
 
-import { selectIsLoggedIn } from 'redux/auth/selectors';
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import { Filter } from '../../components/filter/Filter';
-import { selectFilter, selectStartDate } from 'redux/filter/filterSelector';
+import { selectFilter, selectStartDate } from "../../redux/filter/filterSelector";
 import {
     deleteTransactionThunk,
-    getTransacationsThunk,
+    getTransactionsThunk,
 } from '../../redux/transactions/operations';
-import { selectTransaction } from 'redux/transactions/selectors';
+import { selectTransaction } from "../../components/../redux/transactions/selectors";
 import { SectionTransaction } from 'components/sectionTransactionList/sectionTransaction';
 import { TotalExpense, TotalIncome } from 'shared/Total';
 
@@ -39,9 +39,9 @@ import svg from '../../images/Sprite.svg';
 import { FramerMotion } from 'helpers/framer-motion';
 
 //edit modal
-import Modal from '../../components/modal/modal';
+import Modal from '../../components/modal/Modal';
 import { useModal } from '../../components/hooks/useModal';
-import OperationForm from '../shared/operationsForm/OperationForm';
+import OperationForm from "../../shared/OperationsForm/OperationForm";
 
 
 export const Income = () => {

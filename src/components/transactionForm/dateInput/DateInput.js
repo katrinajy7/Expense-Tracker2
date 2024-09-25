@@ -3,7 +3,7 @@ import { Controller } from 'react-hook-form';
 
 import { StyledWrapper, StyledInputWrapper, StyledLabel, StyledDatePicker, StyledTimePicker, StyledSvg } from './DateInput.styled';
 
-import svg from '../../images/Sprite.svg';
+import svg from "../../../images/Sprite.svg";
 
 const TransactionDateInput = ({ editData, control, datePiker}) => {
     const [defaultDate, setDefaultDate] = useState('');

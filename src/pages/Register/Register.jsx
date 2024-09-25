@@ -1,11 +1,11 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { useSelector } from 'react-redux';
 
-import { selectIsLoggedIn } from 'redux/auth/selectors';
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import RegisterForm from 'components/RegisterForm/RegisterForm';
 import { TotalIncome } from 'shared/Total';
 
-import { AdaptDiv } from 'pages/Home/Home.styled';
+import { AdaptDiv, H2 } from 'pages/Home/Home.styled';
 import {
     PlugDivs,
     TableDivs,

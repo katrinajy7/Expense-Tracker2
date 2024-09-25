@@ -13,7 +13,7 @@
 //     }
 
 
-import { createTransactionThunk, updateTransactionThunk } from "redux/transactions/operations";
+import { createTransactionThunk, updateTransactionThunk } from "../../redux/transactions/operations";
 
 
 const onSubmitTransaction = (data, transactionsType, categoryId, dispatch, reset, editData, datePicker) => {

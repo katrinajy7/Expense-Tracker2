@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router';
 
-import Modal from '../../components/modal/modal';
-import { useModal } from '../../components/hooks/useModal';
+import Modal from "../../modal/Modal";
+import { useModal } from '../../hooks/useModal';
 
 import { Controller } from 'react-hook-form';
 
-import { AllCategories } from '../../components/categories/allCategories/AllCategories';
+import { AllCategories } from "../../categories/allCategories/AllCategories";
 
 import {
     StyledInputWrapper,

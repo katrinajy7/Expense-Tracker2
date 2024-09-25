@@ -12,12 +12,12 @@ import validationSchema from './validationSchema/validationSchema';
 import { yupResolver } from '@hookform/resolvers/yup';
 
 //Components
-import onSubmitTransaction from 'components/onSunmitTransactions/onSubmitTransaction';
+import onSubmitTransaction from 'components/onSubmitTransaction/onSubmitTransaction';
 import PreSelectType from 'components/preSelectType/PreSelectType';
 
 //Form components
 import RadioBtn from 'components/transactionForm/radioBtn/RadioBtn';
-import DateInput from '../../components/transactionForm/categoryInput';
+import DateInput from  "../../components/transactionForm/dateInput/DateInput";
 import CategoryInput from 'components/transactionForm/categoryInput/CategoryInput';
 import SumInput from 'components/transactionForm/sumInput/SumInput';
 import DescriptionInput from 'components/transactionForm/descriptionInput/DescriptionInput';
@@ -28,7 +28,7 @@ import {
     StyledFormWrapper,
     StyledErrorMsg,
     StyledInputsWrapper,
-} from './OperationsForm.styled';
+} from './OperationForm.styled';
 
 
 const OperationForm = ({editData, closeModal}) => {

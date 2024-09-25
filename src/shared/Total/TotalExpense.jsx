@@ -3,16 +3,16 @@ import React from 'react';
 
 //selector
 import { useSelector } from 'react-redux';
-import { selectUser } from 'redux/user/selectors';
+import { selectUser } from "../../redux/user/selectors";
 
 // svg
-import arrow from '../../../images/Sprite.svg';
+import arrow from "../../images/Sprite.svg";
 
 // components
 import Currency from './Currency';
 
 //styled
-import { StyledWrapper, StyledSvgWrapper, StyledHeaders, StyledMoney, StyledTotalWrapper } from './StyledTotal';
+import { StyledWrapper, StyledSvgWrapper, StyledSvg, StyledHeaders, StyledMoney, StyledTotalWrapper  } from './StyledTotal';
 
 const TotalExpense = () => {
     const user = useSelector(selectUser)

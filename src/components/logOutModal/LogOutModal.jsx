@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
-import { logoutThunk } from 'redux/auth/Operations';
+import { logoutThunk } from "../../redux/auth/Operations";
 
 import {
     StyledLogOutButton,

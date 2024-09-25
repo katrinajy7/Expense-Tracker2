@@ -1,27 +1,35 @@
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 
-import { selectIsLoggedIn } from "redux/auth/selectors";
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import { TotalIncome } from '../../shared/Total';
 
 import {
-    AdaptDiv,
-    Avatar,
-    Content,
-    ContentInfo,
-    ContentUsers,
-    First,
-    H1,
-    H2,
-    H2span,
-    H3,
-    ImagesPack,
-    Img,
-    PlugDiv,
-    Secondm
+  AdaptDiv,
+  Avatar,
+  Content,
+  ContentInfo,
+  ContentUsers,
+  First,
+  H1,
+  H2,
+  H2span,
+  H3,
+  ImagePack,
+  Img,
+  PlugDiv,
+  Second,
+  SignIn,
+  SignUp,
+  TableDiv,
+  Text,
+  TextDown,
+  Third,
+  WrapBtn,
+  Wrapper,
 } from './Home.styled';
 
-import homeing from '../../images/home/Rectangle 1.png';
+import homeimg from '../../images/home/Rectangle 1.png';
 import first from '../../images/home/second.png';
 import second from '../../images/home/second.png';
 import third from '../../images/home/third.png';

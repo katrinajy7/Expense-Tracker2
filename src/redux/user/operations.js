@@ -25,7 +25,7 @@ export const updateUserInfoThunk = createAsyncThunk(
     }
 );
 
-export const changaAvatarThunk = createAsyncThunk(
+export const changeAvatarThunk = createAsyncThunk(
     'changeAvatar',
     async (avatarFile, thunkApi) => {
         try {

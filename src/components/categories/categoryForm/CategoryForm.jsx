@@ -7,11 +7,10 @@ import {
     StyledErrorP,
     StyledInput, 
     SubmitForm,
-    StyledErrorP,
-} from './categoryForm.styled';
+} from "./CategoryForm.styled";
 import { FramerMotion } from 'helpers/framer-motion';
 
-export const categoryForm = ({
+export const CategoryForm = ({
     isEditing,
     currentCategory,
     handleSubmit,

@@ -39,9 +39,9 @@ import svg from "../../images/Sprite.svg";
 import { FramerMotion } from '../../helpers/framer-motion';
 
 //edit modal
-import Modal from '../../components/modal/modal';
+import Modal from '../../components/modal/Modal';
 import { useModal } from '../../components/hooks/useModal';
-import OperationForm from '../../shared/OperationsForm/OperationsForm';
+import OperationForm from '../../shared/OperationsForm/OperationForm';
 
 
 

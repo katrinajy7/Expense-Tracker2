@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import { TotalIncome } from 'shared/Total';
-import { selectIsLoggedIn } from 'redux/auth/selectors';
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import LoginForm from 'components/LogInForm/LoginForm';
 
 import { AdaptDiv } from 'pages/Home/Home.styled';
@@ -44,7 +44,7 @@ export default function Login() {
                 <ImgAuth src={homeimg} alt="Main " />
               </PlugDivs>
               <WrapForm>
-                <H2>Sign In</H2>
+                <h2>Sign In</h2>
                 <Texts>
                   Step into a world of hassle-free expense management! Your
                   journey towards financial mastery begins here.

@@ -9,9 +9,9 @@ import {
     createCategoryThunk,
     deleteCategoryThunk,
     updateCategoryThunk,
-} from 'redux/category/operations';
-import { selectCategories } from 'redux/category/selectors';
-import { selectIsLoggedIn } from 'redux/auth/selectors';
+} from "../../../redux/category/operations";
+import { selectCategories } from "../../../redux/category/selectors";
+import { selectIsLoggedIn } from "../../../redux/auth/selectors";
 import {
     CategoriesDiv,
     CategoriesList,

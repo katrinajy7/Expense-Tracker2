@@ -3,17 +3,17 @@ import React from 'react';
 
 //selector
 import { useSelector } from 'react-redux';
-import { selectUser } from 'redux/user/selectors';
-import { selectIsLoggedIn, seletUser } from 'redux/auth/selectors';
+import { selectUser } from "../../redux/user/selectors";
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 
 //svg
-import arrow from '../../../images/Sprite.svg';
+import arrow from "../../images/Sprite.svg";
 
 //components
 import Currency from './Currency';
 
 //styled
-import { StyledWrapper, StyledSvgWrapper, StyledSvg, StyledMoney, StyledTotoalWrapper } from './StyledTotal';
+import { StyledWrapper, StyledSvgWrapper, StyledSvg, StyledHeaders, StyledMoney, StyledTotalWrapper } from './StyledTotal';
 
 
 const TotalIncome = () => {
