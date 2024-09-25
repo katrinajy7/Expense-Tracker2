@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import 'react-datepicker/dist/react-datepicker.css';
 
 import { selectFilter, selectStartDate } from "../../redux/filter/filterSelector";
-import { setFilter, setStartDate} from "../../redux/filter/fiterSlice";
+import { setFilter, setStartDate} from "../../redux/filter/filterSlice";
 
 import {
     DIV,

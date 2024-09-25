@@ -1,7 +1,20 @@
-import {userReducer} from '../redux/user/userSlice';
-import { transactionReducer } from '../redux/transactions/transactionsSlice';
-import { categoriesReducer } from './category/categorySlice';
-import { filterReducer } from './filter/fiterSlice';
+import { configureStore } from '@reduxjs/toolkit';
+import {
+  persistStore,
+  persistReducer,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from "redux-persist";
+import storage from  "redux-persist/lib/storage";
+import {authReducer} from "../redux/auth/authSlice";
+import { userReducer } from "../redux/user/userSlice";
+import { transactionReducer } from "../redux/transactions/transactionsSlice";
+import { categoriesReducer } from "../redux/category/categorySlice";
+import { filterReducer } from "./filter/filterSlice"
 
 const authPersistConfig = {
     key: 'auth',
