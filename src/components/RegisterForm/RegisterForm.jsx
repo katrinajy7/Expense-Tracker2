@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
-import { link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-import { registerThunk } from 'redux/auth/Operations';
+import { registerThunk } from "../../redux/auth/Operations";
 
 
 import {

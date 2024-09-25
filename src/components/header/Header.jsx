@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 
 import Modal from 'components/modal/modal';
-import { selectIsLoggedIn } from 'redux/auth/selectors';
-import { selectUser } from 'redux/user/selectors';
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
+import { selectUser } from "../../redux/user/selectors";
 import { useModal } from 'components/hooks/useModal';
 import UserSetsModal from '../../components/userSetsModal/UserSetsModal';
 
@@ -17,21 +17,21 @@ import {
     CloseBtn,
     MenuHeader,
     ProfileSettingsBtn,
-    UserArrowP,
+    UserArrowUp,
     MenuMain,
     UnAuthorisedHeader,
-    ExpenseBnt,
-    IncomBtn,
+    ExpensesBtn,
+    IncomeBtn,
     DefaultUserIcon,
     UserImgContainer,
     UserPanel,
     UserPanelIcons,
     UserName,
-    ExpenseLink,
+    ExpensesLink,
     LinksContainer,
     ProfileSettingsContainer,
-    UserPanelLogout,
-    DarkBackdrop,
+    UserPanelLogOut,
+    DarkBackDrop,
     HeaderBurgerMenu,
     UsualBackDrop,
 } from './headerStyled';

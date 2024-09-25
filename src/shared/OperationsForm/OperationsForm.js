@@ -19,7 +19,6 @@ import PreSelectType from 'components/preSelectType/PreSelectType';
 import RadioBtn from 'components/transactionForm/radioBtn/RadioBtn';
 import DateInput from '../../components/transactionForm/categoryInput';
 import CategoryInput from 'components/transactionForm/categoryInput/CategoryInput';
-import CategoryInput from 'components/transactionForm/categoryInput/CategoryInput';
 import SumInput from 'components/transactionForm/sumInput/SumInput';
 import DescriptionInput from 'components/transactionForm/descriptionInput/DescriptionInput';
 

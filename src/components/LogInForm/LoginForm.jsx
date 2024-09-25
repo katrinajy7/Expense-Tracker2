@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-import { loginThunk } from 'redux/auth/Operations';
+import { loginThunk } from "../../redux/auth/Operations";
 
 import {
     ButtonSign,
@@ -18,7 +18,7 @@ import {
     WrapPassword,
 } from '../../components/RegisterForm/RegisterForm.styled';
 
-import { ReactComponent as ShowIco } from '../../images/home/eyes.svg';
+import { ReactComponent as ShowsIco } from '../../images/home/eyes.svg';
 import { ReactComponent as HideIco } from '../../images/home/eye-off.svg';
 
 

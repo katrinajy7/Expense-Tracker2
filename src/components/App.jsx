@@ -20,9 +20,9 @@ import { Suspense, lazy, useEffect } from "react";
 import { Route, Routes } from 'react-router-dom/dist';
 
 import { useAuth } from './hooks';
-import { refreshThunk } from "redux/auth/Operations";
+import { refreshThunk } from "../redux/auth/Operations";
 import Layout from './layout/Layout';
-import Loader from './loader/Loader.styled';
+import Loader from "../components/loader/Loader";
 
 const Home = lazy(() => import('pages/Home/Home'));
 const Register = lazy(() => import('pages/Register/Register'));

@@ -7,12 +7,12 @@ import LoginForm from 'components/LogInForm/LoginForm';
 
 import { AdaptDiv } from 'pages/Home/Home.styled';
 import {
-    PlugDivs,
+  PlugDivs,
   TableDivs,
   Texts,
   WrapForm,
   WrapperS,
-} from '../../pages/Register/Register.styled';
+} from '../Register/Register.styled';
 
 import { ImgAuth } from 'components/RegisterForm/RegisterForm.styled';
 

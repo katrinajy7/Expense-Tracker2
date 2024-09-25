@@ -13,7 +13,7 @@ import  'antd/dist/reset.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { persistor, store } from 'redux/store';
+import { persistor, store } from "../src/redux/store";
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';

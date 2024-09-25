@@ -1,6 +1,6 @@
 import React from 'react';
 import { CirclesWithBar } from 'react-loader-spinner';
-import { StyledTotalWrapper } from './Loader.styled';
+import {StyledLoaderWrapper } from "../../components/loader/Loader.styled";
 
 const Loader = () => {
     return (
