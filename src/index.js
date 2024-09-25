@@ -26,7 +26,7 @@ import { GlobalStyles } from "../src/styles/GlobalStyles";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-  <BrowserRouter basename="/Expense-Tracker">
+  <BrowserRouter basename="/goit-Expense-Tracker">
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <App />
