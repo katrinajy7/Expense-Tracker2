@@ -146,7 +146,7 @@ import {
   updateCategoryThunk,
 } from "./operations";
 
-const { createSlice, isAnyOf } = require('@reduxjs/toolkit');
+const { createSlice, isAnyOf } = require("@reduxjs/toolkit");
 
 const initialState = {
   categories: {

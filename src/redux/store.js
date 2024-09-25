@@ -13,7 +13,7 @@ import storage from  "redux-persist/lib/storage";
 import {authReducer} from "../redux/auth/authSlice";
 import { userReducer } from "../redux/user/userSlice";
 import { transactionReducer } from "../redux/transactions/transactionsSlice";
-import { categoriesReducer } from "../redux/category/categorySlice";
+import { categoriesReducer } from "../../src/redux/category/categorySlice";
 import { filterReducer } from "./filter/filterSlice"
 
 const authPersistConfig = {
