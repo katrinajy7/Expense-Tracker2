@@ -70,7 +70,7 @@ const DoughnutComponent = () => {
           }
         }
         const totalSum = transactions.reduce((acc, item) => acc + item.sum, 0);
-        const newItems = Object.keys(categorySums).map(categoryName => ({
+        const newItems = Object.key(categorySums).map(categoryName => ({
           category: { categoryName },
           sum: categorySums[categoryName],
           percentage: ((categorySums[categoryName] / totalSum) * 100).toFixed(

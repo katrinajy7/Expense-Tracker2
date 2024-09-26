@@ -141,7 +141,7 @@ export const UsualBackDrop = styled.div`
   z-index: 2;
 `;
 
-export const HeaderLink = styled(motion(Link))`
+export const HeaderLink = styled(motion.create(Link))`
   display: flex;
   text-decoration: none;
   color: #fafafa;
@@ -257,7 +257,7 @@ export const IncomeBtn = styled(NavLink)`
     color: white;
   }
 `;
-export const ExpensesLink = styled(motion(NavLink))`
+export const ExpensesLink = styled(motion.create(NavLink))`
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -278,7 +278,7 @@ export const ExpensesLink = styled(motion(NavLink))`
     color: black;
   }
 `;
-export const IncomeLink = styled(motion(NavLink))`
+export const IncomeLink = styled(motion.create(NavLink))`
   display: flex;
   justify-content: center;
   text-decoration: none;
