@@ -170,4 +170,3 @@ export const Income = () => {
     );
   };
   export default Income;
-  

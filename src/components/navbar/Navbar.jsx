@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav>
             <NavLink to="/" end>
-            
+            ExpenseTracker
             </NavLink>
         </nav>
     );

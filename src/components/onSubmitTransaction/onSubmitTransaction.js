@@ -87,4 +87,4 @@ const onSubmitTransaction = (data, transactionsType, categoryId, dispatch, reset
   };
 };
 
-export default onSubmitTransaction
+export default onSubmitTransaction;
