@@ -9,7 +9,7 @@ import {
     ContentWrapper,
     StyledSvgUser,
     StyledWrapper,
-  } from './modal.styled';
+  } from  "./Modal.styled";
 
   const rootModal = document.querySelector('#modal');
 
