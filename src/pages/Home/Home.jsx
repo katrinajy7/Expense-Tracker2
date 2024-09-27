@@ -30,9 +30,9 @@ import {
 } from './Home.styled';
 
 import homeimg from '../../images/home/Rectangle 1.png';
-import first from '../../images/home/second.png';
+import first from '../../images/home/fleur cook.png';
 import second from '../../images/home/second.png';
-import third from '../../images/home/third.png';
+import third from '../../images/home/Amanda Lowery.png'
 
 const Home = () => {
     const isLoggedIn = useSelector(selectIsLoggedIn);

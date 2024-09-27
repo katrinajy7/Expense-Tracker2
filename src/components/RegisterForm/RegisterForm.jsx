@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-import { registerThunk } from "../../redux/auth/Operations";
+import { registerThunk } from "../../redux/auth/operations";
 
 
 import {

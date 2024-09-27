@@ -9,7 +9,7 @@ import {
     deleteTransactionThunk,
     getTransactionsThunk,
 } from '../../redux/transactions/operations';
-import { selectTransaction } from '../../redux/transactions/selectors';
+import { selectTransaction } from "../../redux/transactions/selectors";
 import { SectionTransaction } from '../../components/sectionTransactionList/sectionTransaction';
 import { TotalExpense, TotalIncome } from '../../shared/Total';
 import { selectIsLoggedIn } from '../../redux/auth/selectors';
@@ -34,7 +34,7 @@ import {
   PEr,
   DIV375,
   MainWr,
-} from "../../pages/Income/Income.styled";
+} from "../Income/Income.styled";
 import svg from "../../images/Sprite.svg";
 import { FramerMotion } from '../../helpers/framer-motion';
 

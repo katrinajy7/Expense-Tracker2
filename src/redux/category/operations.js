@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { expenseApi } from "../auth/Operations";
+import { expenseApi } from "../auth/operations";
 
 export const createCategoryThunk = createAsyncThunk(
     'createCategory',

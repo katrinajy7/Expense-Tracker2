@@ -5,7 +5,7 @@ import {
     changeAvatarThunk,
     deleteAvatarThunk,
 } from './operations.js';
-import { loginThunk, registerThunk } from '../auth/Operations.js';
+import { loginThunk, registerThunk } from "../auth/operations.js";
 import { createTransactionThunk } from "../../redux/transactions/operations.js";
 
 
