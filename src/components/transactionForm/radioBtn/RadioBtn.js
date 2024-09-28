@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 //component
-import PreSelectType from 'components/preSelectType/PreSelectType';
+import PreSelectType from '../../../components/preSelectType/PreSelectType';
 
 //styled
 import { StyledInputWrapper, StyledLabel, StyledWrapper, StyledInput } from './RadioBtn.styled';

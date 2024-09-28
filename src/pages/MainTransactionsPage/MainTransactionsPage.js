@@ -9,7 +9,7 @@ import { selectIsLoggedIn } from "../../redux/auth/selectors";
 //components
 import { TotalIncome, TotalExpense } from 'shared/Total';
 import OperationForm from '../../shared/OperationsForm/OperationForm';
-import DoughnutComponent from 'components/doughnut/Doughnut';
+import DoughnutComponent from '../../components/doughnut/Doughnut';
 
 //styled
 import {
@@ -157,7 +157,7 @@ const MainTransactionsPage = () => {
               </li>
             </StyledTotalUl>
           </FramerMotion>
-          <FramerMotion $variant="operationForm">
+          <FramerMotion $variantt="operationForm">
             <OperationForm editData={null}/>
           </FramerMotion>
           <FramerMotion $variant="doughnut">

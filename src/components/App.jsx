@@ -32,7 +32,7 @@ const MainTransactionsPage = lazy(() =>
 );
 const Expense = lazy(() => import('pages/Expense/Expense'));
 const Income = lazy(() => import('pages/Income/Income'));
-const NotFound = lazy(() => import('pages/NotFoundPage/NotFound'));
+const NotFound= lazy(() => import('pages/NotFoundPage/NotFound'));
 
 function App() {
   const dispatch = useDispatch();

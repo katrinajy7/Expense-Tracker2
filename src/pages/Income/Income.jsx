@@ -11,7 +11,7 @@ import {
     getTransactionsThunk,
 } from '../../redux/transactions/operations';
 import { selectTransaction } from "../../components/../redux/transactions/selectors";
-import { SectionTransaction } from 'components/sectionTransactionList/sectionTransaction';
+import { SectionTransaction } from '../../components/sectionTransactionList/sectionTransaction';
 import { TotalExpense, TotalIncome } from 'shared/Total';
 
 import {
